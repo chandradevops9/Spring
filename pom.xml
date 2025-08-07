@@ -19,7 +19,21 @@
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
 	</properties>
-
+     <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>KK FUNDA Releases Nexus Repository</name>
+	      <url>http://65.0.23.232:9090/repository/jio-snapshot/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>KK FUNDA Snapshot Nexus Repository </name>
+	      <url>http://65.0.23.232:9090/repository/jio-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
