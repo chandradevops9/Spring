@@ -1,2 +1,2 @@
-sonar_token:squ_3b3970e3efcfbeca471cc4daa5ad0c7ab939b369
-docker_psa:dckr_pat_qHFSvZ8gAtQ_rjgltlw0BHnp50Q
+squ_26f2f7c0ac8e2943a35554ed9c74bc8a5dd8d939
+
